@@ -17,5 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route ::get("home",function(){
-    return "hi";
-})
+    return view("web.index");
+});
+Route ::view("contact","web.contact");
+Route ::view("about","web.about");
+Route ::view("jewellery","web.jewellery");
